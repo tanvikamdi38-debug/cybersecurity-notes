@@ -59,10 +59,13 @@ A **Cyber Attack** is an attack in which someone tries to steal your personal or
 ## Common Types of Threat Actors
 🧑‍💻 **Cybercriminals**
 > Motivated by financial gain. They steal sensitive information such as banking details, passwords, or personal data.
+
 🏴 **Hacktivists**
 > Launch cyber attacks to promote political, social, or ideological causes.
+
 🏛️ **Nation-State Attackers**
 > Government-sponsored groups that conduct cyber espionage, intelligence gathering, or attacks on critical infrastructure.
+
 👨‍💼 **Insider Threats**
 > Current or former employees, contractors, or trusted individuals who intentionally or accidentally compromise an organization's security.
 
