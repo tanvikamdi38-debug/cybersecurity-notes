@@ -1,113 +1,223 @@
-🟢 Module 1 — Cybersecurity Fundamentals
-1️⃣
+# 🛡️ Cybersecurity Notes
 
-🔐 ═════ What is Cybersecurity? ═════ 🔐
-The name itself explains its meaning: Cyber + Security = Protecting digital systems from cyber threats.
+Welcome to my **Cybersecurity Notes** repository! 👋
 
-Cybersecurity is all about securing our systems, networks, devices, and data from cyber attacks and unauthorized access. The primary goal of cybersecurity is to protect our information and systems from attackers while maintaining the security of an organization or an individual.
+This repository documents my cybersecurity learning journey as I prepare for **SOC Analyst**, **Blue Team**, and **Digital Forensics** roles.
 
-Why is Cybersecurity Important?
-As technology continues to grow, cyber attacks are also increasing. Today, almost everyone relies on digital technology, whether it is an individual or an organization.
+The notes are written in simple language based on my own understanding, making them easy to learn, revise, and helpful for anyone starting their cybersecurity journey.
 
-Cybersecurity helps protect:
+---
 
-Personal information
-Financial data
-Business operations
-Government systems
-Critical infrastructure
-Without proper cybersecurity, attackers can steal sensitive information, disrupt services, or cause financial and reputational damage. A simple real-life example is locking the door of your house. If you leave your door unlocked, anyone can enter your house. Similarly, if you don't secure your systems and data, attackers may gain unauthorized access. Cybersecurity acts as that lock for our digital world.
+# 📖 About This Repository
 
-2️⃣
+This repository is built from my learning through:
 
-🔺 ═════ CIA Triad ═════ 🔺
-The CIA Triad is the foundation of cybersecurity. It is a security model that helps organizations protect information by ensuring Confidentiality, Integrity, and Availability.
+- 🎓 HTB Academy
+- 🧪 Homelab Practice
+- 🛠️ TheHive
+- 🔍 VirusTotal
+- 📚 Self-Learning
+- 💼 Internship Experience
+- 📄 Official Documentation
+- 💻 Practical Labs
 
-Abbreviation	Full Form	Description	Example
-C	Confidentiality	Ensures that sensitive information is accessible only to authorized users.	Only HR employees can access salary records.
-I	Integrity	Ensures that data remains accurate, complete, and unaltered by unauthorized users.	Verifying a file's hash after downloading.
-A	Availability	Ensures that systems, applications, and data are available whenever authorized users need them.	An online banking service is available 24/7.
-Easy Way to Remember
-CIA Principle	Remember As
-🔒 Confidentiality	Who can access the data?
-✅ Integrity	Is the data accurate and unchanged?
-🌐 Availability	Can the data be accessed whenever it is needed?
-3️⃣
+Rather than following the exact order in which I learned, the content is organized into structured chapters so readers can build a strong cybersecurity foundation step by step.
 
-⚔️ ═════ What is a Cyber Attack? ═════ ⚔️
-A Cyber Attack is an attack in which someone tries to steal your personal or sensitive information, compromise your data without your knowledge or permission.
+---
 
-Common Types of Cyber Attacks
-Attack Type	Description	Example
-🦠 Malware Attack	Malware is malicious software designed to damage a system, steal information, or gain unauthorized access.	Downloading an infected file that installs a virus on your computer.
-🎣 Phishing Attack	Attackers trick users into revealing personal information through fake emails, messages, or websites.	A fake bank email asking you to enter your login credentials.
-🔒 Ransomware Attack	A type of malware that encrypts files and demands payment to restore access.	Your files are locked, and a ransom note appears on your screen.
-🌐 DoS (Denial of Service) Attack	An attacker floods a server with excessive traffic, making it unavailable to legitimate users.	A website becomes inaccessible because it is overwhelmed with fake requests.
-4️⃣
+# 📚 Cybersecurity Learning Roadmap
 
-👤 ═════ Threat Actors ═════ 👤
-Threat Actor can be individuals, groups, or organizations with different motivations such as financial gain, political reasons, espionage, revenge, or personal curiosity.
+## 🟢 Chapter 1 — Cybersecurity Fundamentals
+- Introduction to Cybersecurity
+- CIA Triad
+- Types of Cyber Attacks
+- Threat Actors
+- Malware Fundamentals
+- Security Controls
 
-Common Types of Threat Actors
-🧑‍💻 Cybercriminals
+---
 
-Motivated by financial gain. They steal sensitive information such as banking details, passwords, or personal data.
+## 🔵 Chapter 2 — Networking Fundamentals
+- OSI Model
+- TCP/IP Model
+- Common Network Protocols
+- Ports & Services
+- DNS
+- DHCP
+- NAT
+- Firewalls
 
-🏴 Hacktivists
+---
 
-Launch cyber attacks to promote political, social, or ideological causes.
+## 🟣 Chapter 3 — SOC Fundamentals
+- Introduction to Security Operations Center (SOC)
+- Roles & Responsibilities of a SOC Analyst
+- SOC Workflow
+- SIEM Fundamentals
+- Alert Lifecycle
+- Alert Triage
 
-🏛️ Nation-State Attackers
+---
 
-Government-sponsored groups that conduct cyber espionage, intelligence gathering, or attacks on critical infrastructure.
+## 🔴 Chapter 4 — Incident Response
+- Event vs Incident
+- Cybersecurity Incident
+- Incident Handling
+- NIST Incident Response Lifecycle
+- Detection & Analysis
+- Indicators of Compromise (IOCs)
+- Containment
+- Eradication
+- Recovery
+- Reporting
+- Lessons Learned
 
-👨‍💼 Insider Threats
+---
 
-Current or former employees, contractors, or trusted individuals who intentionally or accidentally compromise an organization's security.
+## 🟠 Chapter 5 — Threat Intelligence & Investigation
+- TheHive
+- VirusTotal Investigation
+- Threat Intelligence Basics
+- YARA
+- OpenIOC
+- STIX
 
-5️⃣
+---
 
-🦠 ═════ Malware Fundamentals ═════ 🦠
-Malware (Malicious Software) is software designed to damage systems, steal sensitive information, gain unauthorized access, or disrupt normal computer operations.
+## 🟡 Chapter 6 — Blue Team Operations
+- Cyber Kill Chain
+- MITRE ATT&CK Framework
+- Threat Hunting
+- Log Analysis
+- Windows Event Logs
+- Sysmon
 
-Common Types of Malware
-☣️ Virus
-🪱 Worm
-🐴 Trojan Horse
-💰 Ransomware
-👀 Spyware
-Remember: Most malware enters a system through phishing emails, malicious downloads, infected USB devices, or software vulnerabilities.
+---
 
-6️⃣
+## 🟢 Chapter 7 — Digital Forensics
+- Introduction to Digital Forensics
+- Chain of Custody
+- Evidence Acquisition
+- Disk Forensics
+- Memory Forensics
+- Browser Forensics
+- Email Forensics
 
-⚙️ ═════ Security Controls ═════ ⚙️
-Security Controls are safeguards, technologies, policies, and best practices used to protect computers, networks, systems, and data from cyber threats. They help prevent unauthorized access, detect attacks, and reduce security risks.
+---
 
-Best Security Practices (For Everyone)
-These are simple security measures that every individual should follow to protect their personal devices and online accounts.
+## 🔵 Chapter 8 — Advanced Security Topics
+- Splunk
+- Microsoft Sentinel
+- Wazuh
+- Wireshark
+- Malware Analysis
+- Network Forensics
+- Security Automation with Python
 
-🔑 Use strong and unique passwords.
-🔐 Enable Multi-Factor Authentication (MFA).
-🚫 Never share your passwords with anyone.
-🔄 Change passwords regularly or immediately if they are compromised.
-📥 Avoid downloading files from unknown or untrusted sources.
-📧 Do not click suspicious links or phishing emails.
-💻 Keep your operating system and applications updated.
-💾 Back up important data regularly.
-Security Tools & Technologies
-These are commonly used by organizations and cybersecurity professionals to protect systems and investigate security incidents.
+---
 
-Tool / Technology	Purpose
-🔥 Firewall	Filters incoming and outgoing network traffic to block unauthorized access.
-🛡️ Antivirus	Detects, blocks, and removes malicious software.
-🔍 EDR (Endpoint Detection and Response)	Continuously monitors endpoints to detect and respond to threats.
-📊 SIEM	Collects and analyzes logs from multiple systems to detect suspicious activities.
-🚨 IDS (Intrusion Detection System)	Detects suspicious or malicious network activity and generates alerts.
-⛔ IPS (Intrusion Prevention System)	Detects and automatically blocks malicious network traffic.
-🔒 Encryption	Protects sensitive data by converting it into unreadable ciphertext.
-🌐 VPN (Virtual Private Network)	Encrypts internet traffic and secures communication over public networks.
-⚡ Quick Revision Summary
-✔️ Cybersecurity protects systems, networks, and data. ✔️ CIA stands for Confidentiality, Integrity, and Availability. ✔️ Cyber attacks aim to steal, damage, or disrupt systems. ✔️ Threat actors are individuals or groups that launch cyber attacks. ✔️ Malware is malicious software that can harm or compromise systems. ✔️ Security controls include best practices and security technologies that protect against cyber threats.
+# 📈 Learning Progress
 
-🚀 Next Module
-➡️ Module 2 – Networking Fundamentals
+| Status | Meaning |
+|---------|---------|
+| ✅ Completed | Chapter completed |
+| 🚧 In Progress | Currently learning |
+| 📅 Planned | Yet to start |
+
+This repository is continuously updated as I complete new chapters, labs, practical exercises, and hands-on projects.
+
+---
+
+# 🎯 Current Focus
+
+- 🛡️ SOC Operations
+- 🚨 Incident Response
+- 🔍 Alert Investigation
+- 🎯 Threat Detection
+- 🧪 Homelab Development
+- 💻 Digital Forensics
+
+---
+
+# 🛠️ Tools & Technologies
+
+### 💻 Hands-on Experience
+
+- TheHive
+- VirusTotal
+- Splunk
+- Wazuh
+- Git & GitHub
+
+### 📚 Knowledge & Skills
+
+- Linux
+- Windows
+- Networking
+- Python
+- SQL
+- YARA
+- OpenIOC
+- STIX
+
+---
+
+# 📂 Repository Structure
+
+```text
+cybersecurity-notes/
+│
+├── README.md
+│
+├── 01-Cybersecurity-Fundamentals/
+│   └── README.md
+│
+├── 02-Networking-Fundamentals/
+│   └── README.md
+│
+├── 03-SOC-Fundamentals/
+│   └── README.md
+│
+├── 04-Incident-Response/
+│   └── README.md
+│
+├── 05-Threat-Intelligence/
+│   └── README.md
+│
+├── 06-Blue-Team-Operations/
+│   └── README.md
+│
+├── 07-Digital-Forensics/
+│   └── README.md
+│
+└── 08-Advanced-Security-Topics/
+    └── README.md
+```
+
+---
+
+# 🎯 Goal
+
+The goal of this repository is to build a well-structured cybersecurity knowledge base through continuous learning, hands-on practice, homelab development, and technical documentation.
+
+I hope these notes help both me and others understand cybersecurity concepts in a simple and practical way.
+
+---
+
+# ⭐ Repository Status
+
+🚧 **Actively Maintained**
+
+New chapters, practical exercises, and learning resources will continue to be added as I progress through my cybersecurity journey.
+
+---
+
+## 🤝 Contributions
+
+This repository is primarily my personal learning journal. However, if you notice an error or have suggestions for improvement, feel free to open an issue or submit a pull request.
+
+---
+
+⭐ Thank you for taking the time to explore my **Cybersecurity Notes**. I hope these notes are helpful for your learning journey as well.
+
+Happy Learning! 🚀
