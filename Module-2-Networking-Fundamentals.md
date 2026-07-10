@@ -30,3 +30,46 @@ Understanding networking helps you:
 - 🔍 Build a strong foundation for cybersecurity, SOC, digital forensics, and incident response.
 
 Without networking knowledge, understanding how cyber attacks happen and how security professionals investigate them becomes much more difficult.
+
+2️⃣
+# 🏛️ ═════ OSI Model ═════ 🏛️
+The **OSI (Open Systems Interconnection) Model** is a conceptual model that explains **how data travels from one device to another over a network**. It acts like a **roadmap for data communication**, where each of the **seven layers** performs a specific task to ensure data is transmitted correctly from the sender to the receiver.
+Understanding the OSI Model helps us identify where communication problems occur and makes troubleshooting networks much easier.
+
+## 📚 The 7 Layers of the OSI Model
+| Layer | Name | Purpose | Example |
+|-------|------|---------|---------|
+| **7** | **Application** | User accesses network services. | Opening YouTube or Gmail. |
+| **6** | **Presentation** | Formats and secures the data. | HTTPS encrypting your login. |
+| **5** | **Session** | Starts and manages communication. | Joining a Zoom meeting. |
+| **4** | **Transport** | Delivers data reliably. | Sending a WhatsApp message. |
+| **3** | **Network** | Finds the best path for data. | Router forwarding data. |
+| **2** | **Data Link** | Transfers data within the same network. | Laptop sending data to a Wi-Fi printer. |
+| **1** | **Physical** | Transmits data through cables or Wi-Fi. | Ethernet cable or Wi-Fi signals. |
+
+### 📞 OSI Model in Real Life
+Imagine you're calling your friend.
+```text
+You open the Phone app
+        ↓
+🖥️ Application
+        ↓
+🔒 Presentation (Voice is converted into digital data)
+        ↓
+🤝 Session (The call connection starts)
+        ↓
+📦 Transport (Data is divided into packets)
+        ↓
+🗺️ Network (Finds the best route)
+        ↓
+🔗 Data Link (Delivers data within the local network)
+        ↓
+📡 Physical (Data travels as electrical or wireless signals)
+        ↓
+📱 Friend's phone receives the data
+        ↓
+Same 7 layers work in reverse
+        ↓
+🎙️ Your friend hears your voice
+```
+> **💡 Remember:** Every time data is sent, it moves from **Layer 7 → Layer 1**. When the receiver gets the data, it moves from **Layer 1 → Layer 7**.
