@@ -1,4 +1,4 @@
-🔵 Module 2 — Networking Fundamentals
+# 🔵 Module 2 — Networking Fundamentals
 
 1️⃣
 # 🖥️ What is a Network?
