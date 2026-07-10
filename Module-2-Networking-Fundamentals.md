@@ -1,7 +1,7 @@
 # 🔵 Module 2 — Networking Fundamentals
 
 1️⃣
-# 🖥️ What is a Network?
+# 🌍 ═════ What is Networking? ═════ 🌍
 A **Network** is a collection of **two or more devices** connected together so they can communicate with each other and perform tasks by sharing data and resources.
 These devices can be laptops, computers, mobile phones, printers, servers, routers, or any other network-enabled devices.
 **Example:** Your laptop, mobile phone, and Wi-Fi router connected together form a **network**.
