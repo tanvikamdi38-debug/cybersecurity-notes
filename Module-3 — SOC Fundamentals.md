@@ -28,7 +28,7 @@ A successful Security Operations Center is built on three important pillars.
 - 💻 **Technology** → Which tools are used.
 
 2️⃣
-# 👨‍💻 ═════ Roles & Responsibilities of a SOC Analyst ═════ 👨‍💻
+# 👨‍💻 ═══ Roles & Responsibilities of a SOC Analyst ═══ 👨‍💻
 SOC Analysts work together as a team, with each level having different responsibilities based on their experience and expertise.
 ## 👥 SOC Team Roles & Responsibilities
 | Role | Responsibility |
@@ -49,7 +49,7 @@ SOC Analysts work together as a team, with each level having different responsib
 👨‍💼 **SOC Manager** → Lead the SOC Team
 
 3️⃣
-# 🔄 ═════ SOC Workflow ═════ 🔄👨‍💻 Attacker Launches an Attack
+# 🔄 ═══ SOC Workflow ═══ 🔄👨‍💻 Attacker Launches an Attack
             ↓
 ⚡ Suspicious Activity Occurs
             ↓
