@@ -146,5 +146,36 @@ SOC Analysts use the Alert Lifecycle to:
 - 📂 Maintain proper documentation of security incidents.
 - ✅ Ensure every alert is resolved before closing the case.
 <img width="1218" height="486" alt="8b26bbcc-8315-4936-b235-99f135340252" src="https://github.com/user-attachments/assets/d15b9277-d183-4c91-8ff7-5e493cd689c2" />
+
 > **💡 Remember:** Every alert follows a lifecycle—from **Alert Generated** to **Case Closed**. The purpose of the Alert Lifecycle is to ensure that every alert is properly tracked, investigated, documented, and resolved.
 
+6️⃣
+# 🔍 ═══ Alert Triage ═══ 🔍
+**Alert Triage** is the process of reviewing, analyzing, and prioritizing security alerts to determine whether they represent a real security incident.
+Its main goal is to identify whether an alert is a **True Positive** or a **False Positive** and decide the appropriate next action.
+
+## The 5 Ws of Alert Triage
+During Alert Triage, a SOC Analyst answers five important questions before making a decision.
+
+<img width="1065" height="1071" alt="8dc43840-b8e7-433c-88a5-00d4b0fce459" src="https://github.com/user-attachments/assets/466db667-2c37-4515-be61-503ba124f101" />
+
+## 💡 Easy Way to Remember
+**Alert Triage = Ask the 5 Ws before taking action.**
+
+
+---
+
+# ⚡ Quick Revision Summary
+✔️ A **Security Operations Center (SOC)** continuously monitors, detects, investigates, and responds to cybersecurity threats.
+✔️ A **SOC Analyst** performs alert monitoring, alert triage, investigation, and incident escalation.
+✔️ The **SOC Workflow** explains how logs are collected, analyzed by SIEM, and investigated by SOC Analysts.
+✔️ **SIEM** collects logs, analyzes them, applies detection rules, and generates security alerts.
+✔️ **Case Management Platforms** (such as TheHive or ServiceNow) help create and manage investigation cases.
+✔️ The **Alert Lifecycle** tracks an alert from generation to investigation and case closure.
+✔️ **Alert Triage** helps SOC Analysts determine whether an alert is a **True Positive** or **False Positive** using the **5 Ws** (What, When, Where, Who, and Why).
+
+---
+
+# 🚀 Next Module
+
+➡️ **Module 4 – Incident Response**
