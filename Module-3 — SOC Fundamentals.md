@@ -145,7 +145,6 @@ SOC Analysts use the Alert Lifecycle to:
 - ⚡ Identify whether an alert is a **True Positive** or a **False Positive**.
 - 📂 Maintain proper documentation of security incidents.
 - ✅ Ensure every alert is resolved before closing the case.
-<img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/bf519144-aeae-4bbc-b810-477040adc54d" />
-
+<img width="1218" height="486" alt="8b26bbcc-8315-4936-b235-99f135340252" src="https://github.com/user-attachments/assets/d15b9277-d183-4c91-8ff7-5e493cd689c2" />
 > **💡 Remember:** Every alert follows a lifecycle—from **Alert Generated** to **Case Closed**. The purpose of the Alert Lifecycle is to ensure that every alert is properly tracked, investigated, documented, and resolved.
 
