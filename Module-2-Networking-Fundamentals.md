@@ -1,7 +1,7 @@
 # 🔵 Module 2 — Networking Fundamentals
 
 1️⃣
-# 🌍 ═════ What is Networking? ═════ 🌍
+# 🌍 ═══ What is Networking? ═══ 🌍
 A **Network** is a collection of **two or more devices** connected together so they can communicate with each other and perform tasks by sharing data and resources.
 These devices can be laptops, computers, mobile phones, printers, servers, routers, or any other network-enabled devices.
 **Example:** Your laptop, mobile phone, and Wi-Fi router connected together form a **network**.
@@ -32,7 +32,7 @@ Understanding networking helps you:
 Without networking knowledge, understanding how cyber attacks happen and how security professionals investigate them becomes much more difficult.
 
 2️⃣
-# 🏛️ ═════ OSI Model ═════ 🏛️
+# 🏛️ ═══ OSI Model ═══ 🏛️
 The **OSI (Open Systems Interconnection) Model** is a conceptual model that explains **how data travels from one device to another over a network**. It acts like a **roadmap for data communication**, where each of the **seven layers** performs a specific task to ensure data is transmitted correctly from the sender to the receiver.
 Understanding the OSI Model helps us identify where communication problems occur and makes troubleshooting networks much easier.
 
@@ -75,7 +75,7 @@ Same 7 layers work in reverse
 > **💡 Remember:** Every time data is sent, it moves from **Layer 7 → Layer 1**. When the receiver gets the data, it moves from **Layer 1 → Layer 7**.
 
 3️⃣
-# 📡 ═════ TCP/IP Model ═════ 📡
+# 📡 ═══ TCP/IP Model ═══ 📡
 The **TCP/IP (Transmission Control Protocol / Internet Protocol) Model** is the networking model used for communication over the Internet. It explains how data is sent from one device to another. 
 
 ## What is TCP (Transmission Control Protocol)?
@@ -102,7 +102,7 @@ Unlike the **OSI Model**, which has **7 layers**, the **TCP/IP Model** has **4 l
 - 🗺️ **IP = Finds the correct destination for the data.**
 
 4️⃣
-# 🌐 ═════ Common Network Protocols ═════ 🌐
+# 🌐 ═══ Common Network Protocols ═══ 🌐
 A **Network Protocol** is a set of rules that tells devices **how to communicate and exchange data** over a network. These rules allow different devices to communicate with each other **regardless of their hardware or software differences**.
 In simple words, a network protocol acts like a **common language** that devices use to understand each other.
 
@@ -132,7 +132,7 @@ Without a common protocol, devices cannot communicate with each other.
 > **💡 Note:**  Most websites today use **HTTPS** because it encrypts data between your browser and the website, helping protect sensitive information such as passwords and payment details. However seeing HTTPS alone does **not** guarantee that a website is trustworthy—you should still verify the website and its source.
 
 5️⃣
-# 🚪 ═════ Ports & Services ═════ 🚪
+# 🚪 ═══ Ports & Services ═══ 🚪
 ## What is a Port?
 A **Port** is a virtual door that directs data to the correct application or service running on a device.
 
@@ -150,7 +150,7 @@ Similarly, data first uses the **IP Address** to reach the correct device, then 
 💡 **Remember:** IP Address tells you **which device** to reach, Port tells you **where on that device** to go, and the Service **does the actual work**.
 
 6️⃣
-# 🧭 ═════ DNS (Domain Name System) ═════ 🧭
+# 🧭 ═══ DNS (Domain Name System) ═══ 🧭
 **DNS (Domain Name System)** is like the phonebook of the Internet. It converts a **domain name** (website name) into an **IP Address** so that your device can find and connect to the correct website.
 Without DNS, we would have to remember IP addresses instead of easy website names.
 
@@ -167,7 +167,7 @@ Your device connects to Google's server.
  **DNS = Website Name → IP Address**
 
 7️⃣
-# 📥 ═════ DHCP (Dynamic Host Configuration Protocol) ═════ 📥
+# 📥 ═══ DHCP (Dynamic Host Configuration Protocol) ═══ 📥
 **DHCP (Dynamic Host Configuration Protocol)** automatically assigns an **IP Address** to a device when it connects to a network.
 Without DHCP, you would have to manually assign an IP Address to every device.
 
@@ -186,7 +186,7 @@ Now your phone can access the Internet.
  **DHCP = Automatically Gives an IP Address**
 
 8️⃣
-# 🔀 ═════ NAT (Network Address Translation) ═════ 🔀
+# 🔀 ═══ NAT (Network Address Translation) ═══ 🔀
 **NAT (Network Address Translation)** allows multiple devices in a private network to share a single public IP Address while accessing the Internet.
 It helps conserve public IP addresses and improves network security.
 
@@ -208,7 +208,7 @@ Internet
  **NAT = Many Private IPs → One Public IP**
 
 9️⃣
-# 🛡️ ═════ Firewalls ═════ 🛡️
+# 🛡️ ═══ Firewalls ═══ 🛡️
 A **Firewall** is a security system that monitors and controls incoming and outgoing network traffic. It allows trusted traffic and blocks suspicious or unauthorized traffic to protect a device or network.
 
 ## Example
@@ -232,7 +232,7 @@ Similarly, a firewall checks all network traffic. It allows safe traffic and blo
  **Firewall = Security Guard of a Network**
 
 
- # ⚡ ═════ Quick Revision Summary ═════ ⚡
+ # ⚡ ═══ Quick Revision Summary ═══ ⚡
 ✔️ A **Network** is a collection of two or more connected devices that communicate and share data.
 ✔️ **Networking** is the process of connecting devices and allowing them to exchange information.
 ✔️ The **OSI Model** is a conceptual model with **7 layers** that explains how data travels from one device to another.
