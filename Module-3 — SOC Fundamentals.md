@@ -2,7 +2,6 @@
 
 1️⃣
 # 🏢 ═══ What is a Security Operations Center (SOC)? ═══ 🏢
-
 A **Security Operations Center (SOC)** is a dedicated team of cybersecurity professionals responsible for continuously **monitoring, detecting, investigating, and responding** to security threats within an organization.
 The main goal of a SOC is to protect an organization's systems, networks, and data by focusing on two key functions:
 - 🔍 **Detection**
@@ -87,4 +86,51 @@ The **SOC Workflow** is the step-by-step process followed by a Security Operatio
                           ↓
                          ✅ Case Closed
 
-> **💡 Remember:** A **Detection Rule** is a predefined condition that tells the SIEM what suspicious activity to look for. If a log matches the rule, an alert is generated.                                                                              
+> **💡 Remember:** A **Detection Rule** is a predefined condition that tells the SIEM what suspicious activity to look for. If a log matches the rule, an alert is generated.
+
+4️⃣
+# 📊 ═════ SIEM Fundamentals ═════ 📊
+# What is SIEM?
+**SIEM (Security Information and Event Management)** is a security solution that collects, monitors, and analyzes logs from different devices and applications to detect suspicious activities.
+It helps SOC Analysts identify potential security threats by analyzing logs and applying predefined detection rules. When suspicious activity is detected, SIEM generates an alert for further investigation.
+
+## Why Do SOC Analysts Use SIEM?
+SOC Analysts use SIEM to:
+- 📋 Collect logs from multiple devices and applications.
+- 🔍 Analyze user and system activities.
+- 🚨 Detect suspicious or malicious behavior.
+- ⚡ Generate alerts based on detection rules.
+- 🕵️ Help investigate potential security incidents.
+
+### How Does SIEM Work?
+```text
+💻 Devices & Applications
+(Windows, Linux, Firewall, Active Directory, etc.)
+                    ↓
+📝 Logs are Generated
+                    ↓
+📊 SIEM Collects & Analyzes Logs
+                    ↓
+🔍 Detection Rules are Applied
+                    ↓
+🚨 Alert is Generated
+                    ↓
+📂 Case Management Platform
+(TheHive / ServiceNow / Jira, etc.)
+                    ↓
+📋 Case is Created
+                    ↓
+👨‍💻 SOC Analyst
+(Alert Triage & Investigation)
+```
+
+### 📌 Example
+Imagine an employee normally logs in from **Mumbai** every day. One day, the same account attempts to log in from **Russia** after **five failed login attempts**. The SIEM collects these logs, analyzes the activity, and applies its detection rules. Since this behavior is unusual, the SIEM generates an alert. The alert is then forwarded to a **Case Management Platform** (such as **TheHive**), where a case is created and assigned to a SOC Analyst for investigation.
+
+** Important:** SIEM can **collect logs, analyze them, apply detection rules, and generate alerts**, but it **cannot determine whether an alert is a True Positive or a False Positive**. That decision is made by the **SOC Analyst** during the **Alert Triage and Investigation** process.
+
+## 💡 Easy Way to Remember
+**Logs → SIEM → Detection Rules → Alert → Case Management → SOC Analyst**
+
+5️⃣
+<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/aab8ef86-d36d-47be-ad0f-47fb456a3307" />
