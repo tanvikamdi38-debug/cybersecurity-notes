@@ -7,7 +7,7 @@ A **Security Operations Center (SOC)** is a dedicated team of cybersecurity prof
 The main goal of a SOC is to protect an organization's systems, networks, and data by focusing on two key functions:
 - 🔍 **Detection**
 - 🚨 **Response**
-- 
+  
 | 🔍 Detection | 🚨 Response |
 |-------------|-------------|
 | Detect Vulnerabilities | Supports the Incident Response process |
@@ -49,40 +49,39 @@ SOC Analysts work together as a team, with each level having different responsib
 👨‍💼 **SOC Manager** → Lead the SOC Team
 
 3️⃣
-# 🔄 ═════ SOC Workflow ═════ 🔄
-                                                            👨‍💻 Attacker Launches an Attack
-                                                                           ↓
-                                                            ⚡ Suspicious Activity Occurs
-                                                                           ↓
-                                                            📝 Event is Generated
-                                                                           ↓
-                                                            📋 Log is Generated
-                                                                           ↓
-                                                            📊 SIEM Collects the Logs
-                                                                           ↓
-                                                            🔍 SIEM Applies Detection Rules
-                                                                           ↓
-                                                            🚨 Alert is Generated
-                                                                           ↓
-                                                            👨‍💻 Level 1 SOC Analyst
-                                                              (Alert Triage)
-                                                                           ↓
-                                                            ❓ True Positive or False Positive?
-                                                                    ↓                  ↓
-                                                              False Positive        True Positive
-                                                                    ↓                  ↓
-                                                              Close Alert     Escalate Investigation
-                                                                                       ↓
-                                                                                🔎 Investigation
-                                                                                       ↓
-                                                                              Confirm Security Incident
-                                                                                       ↓
-                                                                              🚨 Incident Response Begins
-                                                                                       ↓
-                                                                              Containment → Eradication → Recovery
-                                                                                       ↓
-                                                                              📝 Documentation & Lessons Learned
-                                                                                       ↓
-                                                                              ✅ Case Closed
+# 🔄 ═════ SOC Workflow ═════ 🔄👨‍💻 Attacker Launches an Attack
+            ↓
+⚡ Suspicious Activity Occurs
+            ↓
+📝 Event is Generated
+            ↓
+📋 Log is Generated
+            ↓
+📊 SIEM Collects the Logs
+            ↓
+🔍 SIEM Applies Detection Rules
+            ↓
+🚨 Alert is Generated
+            ↓
+👨‍💻 Level 1 SOC Analyst
+(Alert Triage)
+            ↓
+❓ True Positive or False Positive?
+      ↓                    ↓
+False Positive        True Positive
+      ↓                    ↓
+ Close Alert      Escalate Investigation
+                          ↓
+                 🔎 Investigation
+                          ↓
+              Confirm Security Incident
+                          ↓
+          🚨 Incident Response Begins
+                          ↓
+      Containment → Eradication → Recovery
+                          ↓
+      📝 Documentation & Lessons Learned
+                          ↓
+                ✅ Case Closed
 
 > **💡 Remember:** A **Detection Rule** is a predefined condition that tells the SIEM what suspicious activity to look for. If a log matches the rule, an alert is generated.                                                                              
