@@ -89,7 +89,7 @@ The **SOC Workflow** is the step-by-step process followed by a Security Operatio
 > **💡 Remember:** A **Detection Rule** is a predefined condition that tells the SIEM what suspicious activity to look for. If a log matches the rule, an alert is generated.
 
 4️⃣
-# 📊 ═════ SIEM Fundamentals ═════ 📊
+# 📊 ═══ SIEM Fundamentals ═══ 📊
 # What is SIEM?
 **SIEM (Security Information and Event Management)** is a security solution that collects, monitors, and analyzes logs from different devices and applications to detect suspicious activities.
 It helps SOC Analysts identify potential security threats by analyzing logs and applying predefined detection rules. When suspicious activity is detected, SIEM generates an alert for further investigation.
@@ -133,6 +133,20 @@ Imagine an employee normally logs in from **Mumbai** every day. One day, the sam
 **Logs → SIEM → Detection Rules → Alert → Case Management → SOC Analyst**
 
 5️⃣
-<p align="center">
-  <img src="../images/alert-triage-5ws.png" alt="Alert Triage 5Ws" width="350">
-</p>
+# 🚨 ═══ Alert Lifecycle ═══ 🚨
+# 🚨 What is an Alert Lifecycle?
+An **Alert Lifecycle** is the complete journey of a security alert, from the moment it is generated until it is investigated, resolved, and finally closed.
+It helps SOC Analysts track the status of every alert and ensures that no security incident is missed during the investigation process.
+
+## Why Do SOC Analysts Use the Alert Lifecycle?
+SOC Analysts use the Alert Lifecycle to:
+- 📌 Track the progress of every security alert.
+- 🔍 Ensure each alert is properly investigated.
+- ⚡ Identify whether an alert is a **True Positive** or a **False Positive**.
+- 📂 Maintain proper documentation of security incidents.
+- ✅ Ensure every alert is resolved before closing the case.
+
+           <img width="1536" height="1024" alt="image" src="https://github.com/user-attachments/assets/f4febcf1-6d5e-4987-8b99-705377550e06" />
+
+> **💡 Remember:** Every alert follows a lifecycle—from **Alert Generated** to **Case Closed**. The purpose of the Alert Lifecycle is to ensure that every alert is properly tracked, investigated, documented, and resolved.
+
