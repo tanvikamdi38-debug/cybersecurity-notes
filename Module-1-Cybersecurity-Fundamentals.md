@@ -1,7 +1,7 @@
 # 🟢 Module 1 — Cybersecurity Fundamentals
 
 1️⃣
-# 🔐 ═════ What is Cybersecurity? ═════ 🔐
+# 🔐 ═══ What is Cybersecurity? ═══ 🔐
 The name itself explains its meaning:
 **Cyber + Security = Protecting digital systems from cyber threats.**
 
@@ -23,7 +23,7 @@ A simple real-life example is locking the door of your house. If you leave your 
 Cybersecurity acts as that lock for our digital world.
 
 2️⃣
-# 🔺 ═════ CIA Triad ═════ 🔺
+# 🔺 ═══ CIA Triad ═══ 🔺
 The **CIA Triad** is the foundation of cybersecurity. 
 It is a security model that helps organizations protect information by ensuring **Confidentiality, Integrity, and Availability**.
 
@@ -41,7 +41,7 @@ It is a security model that helps organizations protect information by ensuring 
 | 🌐 Availability | **Can the data be accessed whenever it is needed?** |
 
 3️⃣
-# ⚔️ ═════ What is a Cyber Attack? ═════ ⚔️
+# ⚔️ ═══ What is a Cyber Attack? ═══ ⚔️
 A **Cyber Attack** is an attack in which someone tries to steal your personal or sensitive information, compromise your data **without your knowledge or permission**.
 
 ##  Common Types of Cyber Attacks
@@ -53,7 +53,7 @@ A **Cyber Attack** is an attack in which someone tries to steal your personal or
 | 🌐 **DoS (Denial of Service) Attack** | An attacker floods a server with excessive traffic, making it unavailable to legitimate users. | A website becomes inaccessible because it is overwhelmed with fake requests. |
 
 4️⃣
-# 👤 ═════ Threat Actors ═════ 👤
+# 👤 ═══ Threat Actors ═══ 👤
 **Threat Actor** can be individuals, groups, or organizations with different motivations such as financial gain, political reasons, espionage, revenge, or personal curiosity.
 
 ## Common Types of Threat Actors
@@ -70,7 +70,7 @@ A **Cyber Attack** is an attack in which someone tries to steal your personal or
 > Current or former employees, contractors, or trusted individuals who intentionally or accidentally compromise an organization's security.
 
 5️⃣
-# 🦠 ═════ Malware Fundamentals ═════ 🦠
+# 🦠 ═══ Malware Fundamentals ═══ 🦠
 **Malware (Malicious Software)** is software designed to damage systems, steal sensitive information, gain unauthorized access, or disrupt normal computer operations.
 
 ## Common Types of Malware
@@ -82,7 +82,7 @@ A **Cyber Attack** is an attack in which someone tries to steal your personal or
 > **Remember:** Most malware enters a system through phishing emails, malicious downloads, infected USB devices, or software vulnerabilities.
 
 6️⃣
-# ⚙️ ═════ Security Controls ═════ ⚙️
+# ⚙️ ═══ Security Controls ═══ ⚙️
 **Security Controls** are safeguards, technologies, policies, and best practices used to protect computers, networks, systems, and data from cyber threats. They help prevent unauthorized access, detect attacks, and reduce security risks.
 
 ## Best Security Practices (For Everyone)
