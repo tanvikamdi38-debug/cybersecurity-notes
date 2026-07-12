@@ -28,7 +28,7 @@ A successful Security Operations Center is built on three important pillars.
 
 2️⃣
 # 👨‍💻 ═══ Roles & Responsibilities of a SOC Analyst ═══ 👨‍💻
-SOC Analysts work together as a team, with each level having different responsibilities based on their experience and expertise.
+**SOC Analysts** work together as a team, with each level having different responsibilities based on their experience and expertise.
 ## 👥 SOC Team Roles & Responsibilities
 | Role | Responsibility |
 |------|----------------|
@@ -90,9 +90,7 @@ The **SOC Workflow** is the step-by-step process followed by a Security Operatio
 
 4️⃣
 # 📊 ═══ SIEM Fundamentals ═══ 📊
-# What is SIEM?
-**SIEM (Security Information and Event Management)** is a security solution that collects, monitors, and analyzes logs from different devices and applications to detect suspicious activities.
-It helps SOC Analysts identify potential security threats by analyzing logs and applying predefined detection rules. When suspicious activity is detected, SIEM generates an alert for further investigation.
+**SIEM** (Security Information and Event Management) is a cybersecurity solution that collects, stores, analyzes, and correlates logs from different devices and applications to detect suspicious activities and security threats in real time.It helps SOC Analysts identify potential security threats by collecting logs, analyzing them, and applying predefined detection rules.
 
 ## Why Do SOC Analysts Use SIEM?
 SOC Analysts use SIEM to:
@@ -127,14 +125,13 @@ SOC Analysts use SIEM to:
 ### 📌 Example
 Imagine an employee normally logs in from **Mumbai** every day. One day, the same account attempts to log in from **Russia** after **five failed login attempts**. The SIEM collects these logs, analyzes the activity, and applies its detection rules. Since this behavior is unusual, the SIEM generates an alert. The alert is then forwarded to a **Case Management Platform** (such as **TheHive**), where a case is created and assigned to a SOC Analyst for investigation.
 
-** Important:** SIEM can **collect logs, analyze them, apply detection rules, and generate alerts**, but it **cannot determine whether an alert is a True Positive or a False Positive**. That decision is made by the **SOC Analyst** during the **Alert Triage and Investigation** process.
+> **📝 Important:** SIEM can collect logs, analyze them, apply detection rules, and generate alerts, but it **cannot determine whether an alert is a True Positive or False Positive**. That decision is made by the SOC Analyst during Alert Triage.
 
 ## 💡 Easy Way to Remember
 **Logs → SIEM → Detection Rules → Alert → Case Management → SOC Analyst**
 
 5️⃣
 # 🚨 ═══ Alert Lifecycle ═══ 🚨
-# 🚨 What is an Alert Lifecycle?
 An **Alert Lifecycle** is the complete journey of a security alert, from the moment it is generated until it is investigated, resolved, and finally closed.
 It helps SOC Analysts track the status of every alert and ensures that no security incident is missed during the investigation process.
 
@@ -151,7 +148,7 @@ SOC Analysts use the Alert Lifecycle to:
 
 6️⃣
 # 🔍 ═══ Alert Triage ═══ 🔍
-**Alert Triage** is the process of reviewing, analyzing, and prioritizing security alerts to determine whether they represent a real security incident.
+**Alert Triage** is the process of reviewing and prioritizing security alerts to determine whether they represent a real security incident.
 Its main goal is to identify whether an alert is a **True Positive** or a **False Positive** and decide the appropriate next action.
 
 ## The 5 Ws of Alert Triage
