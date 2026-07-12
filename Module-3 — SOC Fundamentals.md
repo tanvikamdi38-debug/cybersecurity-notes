@@ -134,5 +134,4 @@ Imagine an employee normally logs in from **Mumbai** every day. One day, the sam
 
 5️⃣
 <p align="center">
-  <img src="../images/alert-triage-5ws.png" width="350">
-</p>
+  <img src="../images/alert-triage-5ws.png" width="450"></p>
