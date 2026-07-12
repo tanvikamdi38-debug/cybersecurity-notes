@@ -133,4 +133,6 @@ Imagine an employee normally logs in from **Mumbai** every day. One day, the sam
 **Logs → SIEM → Detection Rules → Alert → Case Management → SOC Analyst**
 
 5️⃣
-<img width="1254" height="1254" alt="image" src="https://github.com/user-attachments/assets/aab8ef86-d36d-47be-ad0f-47fb456a3307" />
+<p align="center">
+  <img src="../images/alert-triage-5ws.png" width="350">
+</p>
