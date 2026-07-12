@@ -49,39 +49,42 @@ SOC Analysts work together as a team, with each level having different responsib
 👨‍💼 **SOC Manager** → Lead the SOC Team
 
 3️⃣
-# 🔄 ═══ SOC Workflow ═══ 🔄👨‍💻 Attacker Launches an Attack
+# 🔄 ═══ SOC Workflow ═══ 🔄
+The **SOC Workflow** is the step-by-step process followed by a Security Operations Center (SOC) to detect, investigate, and respond to cyber threats.
+
+      👨‍💻 Attacker Launches an Attack
             ↓
-⚡ Suspicious Activity Occurs
+      ⚡ Suspicious Activity Occurs
             ↓
-📝 Event is Generated
+      📝 Event is Generated
             ↓
-📋 Log is Generated
+      📋 Log is Generated
             ↓
-📊 SIEM Collects the Logs
+      📊 SIEM Collects the Logs
             ↓
-🔍 SIEM Applies Detection Rules
+      🔍 SIEM Applies Detection Rules
             ↓
-🚨 Alert is Generated
+      🚨 Alert is Generated
             ↓
-👨‍💻 Level 1 SOC Analyst
-(Alert Triage)
+      👨‍💻 Level 1 SOC Analyst
+        (Alert Triage)
             ↓
-❓ True Positive or False Positive?
-      ↓                    ↓
-False Positive        True Positive
-      ↓                    ↓
- Close Alert      Escalate Investigation
+      ❓ True Positive or False Positive?
+             ↓                 ↓
+        False Positive      True Positive
+             ↓                    ↓
+        Close Alert      Escalate Investigation
                           ↓
-                 🔎 Investigation
+                         🔎 Investigation
                           ↓
-              Confirm Security Incident
+                          Confirm Security Incident
                           ↓
-          🚨 Incident Response Begins
+                         🚨 Incident Response Begins
                           ↓
-      Containment → Eradication → Recovery
+                         Containment → Eradication → Recovery
                           ↓
-      📝 Documentation & Lessons Learned
+                         📝 Documentation & Lessons Learned
                           ↓
-                ✅ Case Closed
+                         ✅ Case Closed
 
 > **💡 Remember:** A **Detection Rule** is a predefined condition that tells the SIEM what suspicious activity to look for. If a log matches the rule, an alert is generated.                                                                              
