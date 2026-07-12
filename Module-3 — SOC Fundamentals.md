@@ -1,12 +1,13 @@
 # 🟣 Module 3 — SOC Fundamentals
 
 1️⃣
-# 🏢 ═════ What is a Security Operations Center (SOC)? ═════ 🏢
+# 🏢 ═══ What is a Security Operations Center (SOC)? ═══ 🏢
 
 A **Security Operations Center (SOC)** is a dedicated team of cybersecurity professionals responsible for continuously **monitoring, detecting, investigating, and responding** to security threats within an organization.
 The main goal of a SOC is to protect an organization's systems, networks, and data by focusing on two key functions:
 - 🔍 **Detection**
 - 🚨 **Response**
+- 
 | 🔍 Detection | 🚨 Response |
 |-------------|-------------|
 | Detect Vulnerabilities | Supports the Incident Response process |
