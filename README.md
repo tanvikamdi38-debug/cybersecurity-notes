@@ -73,7 +73,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-##### 🟠 Chapter 5 — Threat Intelligence & Investigation
+## 🟠 Chapter 5 — Threat Intelligence & Investigation
 - TheHive
 - VirusTotal Investigation
 - Threat Intelligence Basics
@@ -83,7 +83,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-###### 🟡 Chapter 6 — Blue Team Operations
+## 🟡 Chapter 6 — Blue Team Operations
 - Cyber Kill Chain
 - MITRE ATT&CK Framework
 - Threat Hunting
@@ -93,7 +93,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-####### 🟢 Chapter 7 — Digital Forensics
+## 🟢 Chapter 7 — Digital Forensics
 - Introduction to Digital Forensics
 - Chain of Custody
 - Evidence Acquisition
