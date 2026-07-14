@@ -126,6 +126,7 @@ The **NIST Incident Response Lifecycle** provides a step-by-step framework for h
                 └────────► ┌────────────────────────────┐
                            │ d) 📚 Lessons Learned      │   
                            └────────────────────────────┘
+
 # **a) 📝 Preparation**
 Preparation is the **first phase** of the **NIST Incident Response Lifecycle**. It focuses on ensuring that an organization is ready to detect, respond to, and recover from cybersecurity incidents before they occur.
 The main goal of the **Preparation** phase is to build a strong incident handling capability and implement preventive security measures that reduce the risk and impact of cyber attacks.
