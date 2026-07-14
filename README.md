@@ -104,7 +104,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-######## 🔵 Chapter 8 — Advanced Security Topics
+## 🔵 Chapter 8 — Advanced Security Topics
 - Splunk
 - Microsoft Sentinel
 - Wazuh
