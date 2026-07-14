@@ -66,10 +66,8 @@ Rather than following the exact order in which I learned, the content is organiz
 - NIST Incident Response Lifecycle
   * Preparation
   * Detection & Analysis
-  * Containment
-  * Eradication
-  * Recovery
-  * Lessons Learned
+  * Containment, Eradication, Recovery
+  * Post Incident Activity
 - Indicators of Compromise (IOCs)
 - Reporting
 
