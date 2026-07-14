@@ -1,4 +1,4 @@
-# 🟠 Module 3 — SOC Fundamentals
+# 🟣 Chapter 3 — SOC Fundamentals
 
 1️⃣
 # 🏢 ═══ What is a Security Operations Center (SOC)? ═══ 🏢
