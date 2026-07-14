@@ -27,7 +27,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 # 📚 Cybersecurity Learning Roadmap
 
-## 🟢 Chapter 1 — Cybersecurity Fundamentals
+# 🟢 Chapter 1 — Cybersecurity Fundamentals
 - Introduction to Cybersecurity
 - CIA Triad
 - Types of Cyber Attacks
@@ -49,7 +49,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-## 🟣 Chapter 3 — SOC Fundamentals
+### 🟣 Chapter 3 — SOC Fundamentals
 - Introduction to Security Operations Center (SOC)
 - Roles & Responsibilities of a SOC Analyst
 - SOC Workflow
@@ -59,22 +59,23 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-## 🔴 Chapter 4 — Incident Response
+#### 🔴 Chapter 4 — Incident Response
 - Event vs Incident
 - Cybersecurity Incident
 - Incident Handling
 - NIST Incident Response Lifecycle
-- Detection & Analysis
+  * Preparation
+  * Detection & Analysis
+  * Containment
+  * Eradication
+  * Recovery
+  * Lessons Learned
 - Indicators of Compromise (IOCs)
-- Containment
-- Eradication
-- Recovery
 - Reporting
-- Lessons Learned
 
 ---
 
-## 🟠 Chapter 5 — Threat Intelligence & Investigation
+##### 🟠 Chapter 5 — Threat Intelligence & Investigation
 - TheHive
 - VirusTotal Investigation
 - Threat Intelligence Basics
@@ -84,7 +85,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-## 🟡 Chapter 6 — Blue Team Operations
+###### 🟡 Chapter 6 — Blue Team Operations
 - Cyber Kill Chain
 - MITRE ATT&CK Framework
 - Threat Hunting
@@ -94,7 +95,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-## 🟢 Chapter 7 — Digital Forensics
+####### 🟢 Chapter 7 — Digital Forensics
 - Introduction to Digital Forensics
 - Chain of Custody
 - Evidence Acquisition
@@ -105,7 +106,7 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-## 🔵 Chapter 8 — Advanced Security Topics
+######## 🔵 Chapter 8 — Advanced Security Topics
 - Splunk
 - Microsoft Sentinel
 - Wazuh
