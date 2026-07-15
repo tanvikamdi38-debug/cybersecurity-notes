@@ -91,7 +91,7 @@ Rather than following the exact order in which I learned, the content is organiz
 - Windows Event Logs
 - Sysmon
 - SOAR
-- SANDBOXING
+- Sandboxing
 
 ---
 
