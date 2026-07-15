@@ -69,6 +69,8 @@ The SOC team updates its SIEM detection rules, blocks the malicious domains, and
 > 🛡️ **SOC Analysts** use that intelligence to monitor, detect, investigate, and respond to security incidents.
 
 ## 💡 Easy Way to Remember
-🧠 **Threat Intelligence = The Brain (Research & Intelligence)**
+🧠 **Threat Intelligence = The Brain (Research & Intelligence)** 
+
 🛡️ **SOC = The Shield (Detection & Defense)**
+
 **Threat Intelligence = Collect → Analyze → Share → Protect**
