@@ -24,6 +24,8 @@ SOC Analysts use the Cyber Kill Chain to:\
 - 🛡️ Identify opportunities to interrupt or stop an attack before it succeeds.
 - 📊 Improve threat detection, investigation, and incident response.
 
+### 📖 The Cyber Kill Chain consists of **seven sequential phases**. The illustration below provides a high-level overview of each stage before we explore them individually.
+
 <img width="950" height="681" alt="image" src="https://github.com/user-attachments/assets/c66a0f6f-1ed7-4187-a5d0-07d656207612" />
 
 ## Example
