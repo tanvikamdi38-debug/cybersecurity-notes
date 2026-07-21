@@ -24,7 +24,7 @@ SOC Analysts use the Cyber Kill Chain to:\
 - 🛡️ Identify opportunities to interrupt or stop an attack before it succeeds.
 - 📊 Improve threat detection, investigation, and incident response.
 
-
+<img width="950" height="681" alt="image" src="https://github.com/user-attachments/assets/c66a0f6f-1ed7-4187-a5d0-07d656207612" />
 
 ## Example
 An attacker sends a phishing email containing a malicious attachment. By using the **Cyber Kill Chain**, a SOC Analyst can determine **which stage the attacker has reached** and take appropriate action. For example, if the attack is detected during the **Delivery** stage, the malicious email can be blocked before the user opens it, preventing the attack from progressing further.
