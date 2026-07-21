@@ -240,10 +240,7 @@ A suspicious email attachment is opened inside a **sandbox**. If the file behave
 ✅ **MITRE ATT&CK Framework** provides a knowledge base of real-world adversary tactics and techniques, helping defenders detect and respond to attacker behavior.
 ✅ **Threat Hunting** is a proactive security approach where analysts search for hidden threats, suspicious activities, and attacker behavior that may bypass traditional security tools.
 ✅ **Log Analysis** helps SOC Analysts investigate security events, identify abnormal patterns, and detect possible security incidents.
-✅ **Windows Event Logs** provide visibility into system activities such as authentication, process execution, and user actions. Important Event IDs include:
-- 4624 → Successful Logon
-- 4625 → Failed Logon
-- 4688 → Process Creation
+✅ **Windows Event Logs** provide visibility into system activities such as authentication, process execution, and user actions. 
 ✅ **Sysmon** improves Windows monitoring by collecting detailed information about processes, network connections, file activities, and system changes.
 ✅ **Sandbox Analysis** is a safe isolated environment used to execute and analyze suspicious files or malware without affecting the real system. It helps analysts observe malware behavior, network activity, file changes, and indicators of compromise (IOCs).
 ✅ **SOAR (Security Orchestration, Automation, and Response)** acts as a virtual assistant for SOC Analysts by integrating multiple security tools and automating repetitive tasks. It helps collect evidence, enrich alerts, execute response playbooks, and improve incident response efficiency.
