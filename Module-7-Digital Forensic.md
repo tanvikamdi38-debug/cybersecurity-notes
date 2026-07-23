@@ -362,3 +362,12 @@ Forensic Tools
                 ↓
            Generate Report
 ```
+
+## ⚡ Quick Revision Summary
+✔️ **Digital Forensics** is the process of identifying, collecting, preserving, examining, analyzing, and reporting digital evidence during an investigation. ✔️ **Locard's Exchange Principle** states that every digital action leaves a trace. ✔️ **Chain of Custody** ensures that digital evidence is properly collected, handled, transferred, and documented to maintain its integrity and legal admissibility. ✔️ **Evidence Acquisition** focuses on collecting digital evidence without modifying the original data and performing investigations on a verified forensic copy. ✔️ **Disk Forensics** investigates data stored on storage devices such as HDDs and SSDs. ✔️ **Browser Forensics** analyzes browser artifacts such as history, cookies, cache, and downloads. ✔️ **Memory Forensics** examines volatile data stored in RAM to identify running processes, malware, and active network connections. ✔️ **Email Forensics** investigates emails, headers, attachments, and metadata to detect phishing, spoofing, and other email-based attacks. ✔️ **Hashing** generates a unique digital fingerprint of digital evidence, allowing investigators to verify its integrity and detect any modification. ✔️ **Forensic Tools** such as **FTK Imager**, **Autopsy**, **Volatility**, and **Magnet AXIOM** help investigators collect, preserve, analyze, and report digital evidence throughout a forensic investigation.
+
+---
+
+## 🚀 Next Module
+
+➡️ **Chapter 8 – Security Information and Event Management (SIEM)**
