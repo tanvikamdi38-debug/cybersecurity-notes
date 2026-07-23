@@ -194,7 +194,7 @@ Document Every Step
  • RAM is volatile and must be captured before shutdown.
  • Investigators analyze the memory dump, not the live RAM.
 ---
-## 📧 Email Forensics
+# D) 📧 Email Forensics
 **Email Forensics** is the process of collecting, preserving, and analyzing email evidence to investigate phishing, spoofing, malware delivery, and other email-related attacks.
 
 ## Email Evidence Collection & Preservation
