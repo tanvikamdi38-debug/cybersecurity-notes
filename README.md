@@ -95,21 +95,21 @@ Rather than following the exact order in which I learned, the content is organiz
 
 ---
 
-## 🟢 Module 7 — Digital Forensics
+#### 🟢 Chapter 7 — Digital Forensics
 - Digital Forensics
 - Chain of Custody
 - Evidence Acquisition
 - Types of Digital Forensics
-    💽 Disk Forensics
-    🌐 Browser Forensics
-    🧠 Memory Forensics
-    📧 Email Forensics
+  * 💽 Disk Forensics
+  * 🌐 Browser Forensics
+  * 🧠 Memory Forensics
+  * 📧 Email Forensics
 - Hashing
 - Forensic Tools
-    FTK Imager
-    Autopsy
-    Volatility
-    Magnet AXIOM *(Optional)*
+  * FTK Imager
+  * Autopsy
+  * Volatility
+  * Magnet AXIOM *(Optional)*
 
 ---
 
