@@ -235,9 +235,15 @@ A suspicious email attachment is opened inside a **sandbox**. If the file behave
 ---
 ---
 
-
 ## ⚡ Quick Revision Summary
-✅ **Blue Team Operations** focuses on defending systems by continuously monitoring, detecting, investigating, and responding to cyber threats. ✅ The **Cyber Kill Chain** helps SOC Analysts understand each stage of an attack so they can stop threats before they achieve their objective. ✅ The **MITRE ATT&CK Framework** maps real-world attacker tactics and techniques, helping analysts detect and investigate malicious activities more effectively. ✅ **Threat Hunting** is a proactive approach to searching for hidden threats before they trigger alerts. ✅ **Log Analysis** helps analysts examine system, application, and network logs to identify suspicious activities. ✅ **Windows Event Logs** record important system, security, and application events, while **Sysmon** provides more detailed security logging for investigations. ✅ **SOAR** integrates multiple security tools, automates repetitive tasks, and speeds up incident response. ✅ **Sandboxing** safely executes suspicious files in an isolated environment to analyze their behavior and prevent malware from spreading across the network.
+✅ **Blue Team Operations** focuses on defending systems by continuously monitoring, detecting, investigating, and responding to cyber threats. 
+✅ The **Cyber Kill Chain** helps SOC Analysts understand each stage of an attack so they can stop threats before they achieve their objective. 
+✅ The **MITRE ATT&CK Framework** maps real-world attacker tactics and techniques, helping analysts detect and investigate malicious activities more effectively. 
+✅ **Threat Hunting** is a proactive approach to searching for hidden threats before they trigger alerts.
+✅ **Log Analysis** helps analysts examine system, application, and network logs to identify suspicious activities.
+✅ **Windows Event Logs** record important system, security, and application events, while **Sysmon** provides more detailed security logging for investigations.
+✅ **SOAR** integrates multiple security tools, automates repetitive tasks, and speeds up incident response.
+✅ **Sandboxing** safely executes suspicious files in an isolated environment to analyze their behavior and prevent malware from spreading across the network.
 
 ---
 
