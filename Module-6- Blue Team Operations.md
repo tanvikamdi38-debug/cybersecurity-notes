@@ -233,20 +233,14 @@ A suspicious email attachment is opened inside a **sandbox**. If the file behave
 ## 💡 Easy Way to Remember
 **Sandbox = Isolate → Analyze → Protect**
 ---
+---
+
 
 ## ⚡ Quick Revision Summary
-✅ **Blue Team Operations** focuses on defending organizations by detecting, analyzing, and responding to cyber threats using security tools, processes, and defensive strategies.
-✅ **Cyber Kill Chain** helps security teams understand the different stages of an attack, from reconnaissance to achieving attacker objectives.
-✅ **MITRE ATT&CK Framework** provides a knowledge base of real-world adversary tactics and techniques, helping defenders detect and respond to attacker behavior.
-✅ **Threat Hunting** is a proactive security approach where analysts search for hidden threats, suspicious activities, and attacker behavior that may bypass traditional security tools.
-✅ **Log Analysis** helps SOC Analysts investigate security events, identify abnormal patterns, and detect possible security incidents.
-✅ **Windows Event Logs** provide visibility into system activities such as authentication, process execution, and user actions. 
-✅ **Sysmon** improves Windows monitoring by collecting detailed information about processes, network connections, file activities, and system changes.
-✅ **Sandbox Analysis** is a safe isolated environment used to execute and analyze suspicious files or malware without affecting the real system. It helps analysts observe malware behavior, network activity, file changes, and indicators of compromise (IOCs).
-✅ **SOAR (Security Orchestration, Automation, and Response)** acts as a virtual assistant for SOC Analysts by integrating multiple security tools and automating repetitive tasks. It helps collect evidence, enrich alerts, execute response playbooks, and improve incident response efficiency.
-✅ **Together, Blue Team techniques, SOAR, and Sandbox Analysis help SOC teams improve threat detection, automate investigations, safely analyze malware, and respond to security incidents faster.**
+✅ **Blue Team Operations** focuses on defending systems by continuously monitoring, detecting, investigating, and responding to cyber threats. ✅ The **Cyber Kill Chain** helps SOC Analysts understand each stage of an attack so they can stop threats before they achieve their objective. ✅ The **MITRE ATT&CK Framework** maps real-world attacker tactics and techniques, helping analysts detect and investigate malicious activities more effectively. ✅ **Threat Hunting** is a proactive approach to searching for hidden threats before they trigger alerts. ✅ **Log Analysis** helps analysts examine system, application, and network logs to identify suspicious activities. ✅ **Windows Event Logs** record important system, security, and application events, while **Sysmon** provides more detailed security logging for investigations. ✅ **SOAR** integrates multiple security tools, automates repetitive tasks, and speeds up incident response. ✅ **Sandboxing** safely executes suspicious files in an isolated environment to analyze their behavior and prevent malware from spreading across the network.
 
 ---
 
 ## 🚀 Next Module
-➡️ **Module 7 — Digital Forensics**
+
+➡️ **Chapter 7 – Digital Forensics**
