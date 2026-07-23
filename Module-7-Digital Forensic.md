@@ -276,7 +276,7 @@ After the evidence is copied or transferred, the hash value is generated again a
 
 6️⃣
 # 🛠️ ═══ Forensic Tools ═══ 🛠️
-**Forensic tools** are software applications used to collect, preserve, analyze, and report digital evidence during a forensic investigation.
+**Forensic Tools** are software applications used to collect, preserve, analyze, and report digital evidence during a forensic investigation.
 ---
 ```text
 Forensic Tools
