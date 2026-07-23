@@ -232,3 +232,132 @@ Document Every Step
 - 🌐 **Browser Forensics** → Browser Artifacts
 - 🧠 **Memory Forensics** → RAM (Volatile Data)
 - 📧 **Email Forensics** → Emails, Headers & Attachments
+
+  5️⃣
+# #️⃣ ═══ Hashing ═══ #️⃣
+**Hashing** is the process of converting digital data into a **unique fixed-length value**, called a **hash value** or **hash digest**. A hash value acts like a **digital fingerprint** of a file or digital evidence. If even a single bit of the data changes, the hash value also changes.
+
+## Why is Hashing Important?
+Hashing is used to:
+- Verify the integrity of digital evidence.
+- Detect whether evidence has been modified or tampered with.
+- Ensure the forensic copy is identical to the original.
+- Maintain the authenticity of digital evidence during an investigation.
+
+---
+## Common Hash Algorithms
+| Algorithm | Description |
+|-----------|-------------|
+| **MD5** | Generates a 128-bit hash value. Commonly used for file integrity verification. |
+| **SHA-1** | Generates a 160-bit hash value. More secure than MD5 but no longer recommended for high-security applications. |
+| **SHA-256** | Generates a 256-bit hash value. Widely used in modern digital forensics. |
+| **SHA-512** | Generates a 512-bit hash value. Provides stronger integrity verification than SHA-256. |
+---
+
+## How is a Hash Value Collected?
+Every digital file has its own unique hash value.
+To obtain a hash value, investigators use a **forensic or hashing tool** that applies a hashing algorithm (such as MD5 or SHA-256) to the digital evidence. The tool automatically generates the file's unique hash value, which is then recorded as a reference.
+There are several forensic and hashing tools available to generate and verify hash values. We will discuss these tools in detail in the **Forensic Tools** section later in this chapter.
+After the evidence is copied or transferred, the hash value is generated again and compared with the original.
+- If both hash values are **identical**, the evidence has not been modified.
+- If the hash values are **different**, the evidence has been altered or corrupted.
+
+> **NOTE:**
+ * If a file is copied from a computer to a USB flash drive without any modification, its hash value remains the same.
+ * However, if the file is modified—for example, by editing it or by uploading it to a platform that compresses or re-encodes the file—the hash value changes because the file itself has changed.
+
+> **📝 Remember:**
+  • Every file has its own unique hash value.
+  • A hash value is the digital fingerprint of a file.
+  • Matching hash values indicate that the evidence has not been altered.
+
+## 💡 Easy Way to Remember
+**Hashing = Digital Fingerprint of Digital Evidence**
+
+6️⃣
+# 🛠️ ═══ Forensic Tools ═══ 🛠️
+**Forensic tools** are software applications used to collect, preserve, analyze, and report digital evidence during a forensic investigation.
+---
+```text
+Forensic Tools
+│
+├── 🖥️ FTK Imager
+│   │
+│   ├──  What?
+│   │      • Creates forensic images of digital evidence.
+│   │
+│   ├──  Uses
+│   │      • Create disk images
+│   │      • Preview files & folders
+│   │      • Generate & verify hash values
+│   │      • Export digital evidence
+│   │
+│   └──  How It Works
+│          Select Evidence
+│               ↓
+│          Create Forensic Image
+│               ↓
+│          Generate Hash Value
+│               ↓
+│          Save & Export Evidence
+│
+├── 🧩 Autopsy
+│   │
+│   ├──  What?
+│   │      • Open-source digital forensic analysis tool.
+│   │
+│   ├──  Uses
+│   │      • Analyze disk images
+│   │      • Recover deleted files
+│   │      • Timeline analysis
+│   │      • Keyword search
+│   │
+│   └──  How It Works
+│          Load Disk Image
+│               ↓
+│          Scan File System
+│               ↓
+│          Recover Artifacts
+│               ↓
+│          Generate Report
+│
+├── 🧠 Volatility
+│   │
+│   ├──  What?
+│   │      • Memory forensic analysis framework.
+│   │
+│   ├──  Uses
+│   │      • Analyze memory dumps
+│   │      • Detect malware
+│   │      • View running processes
+│   │      • Analyze network connections
+│   │
+│   └──  How It Works
+│          Load Memory Dump
+│               ↓
+│          Run Plugins
+│               ↓
+│          Analyze Memory Artifacts
+│               ↓
+│          Generate Findings
+│
+└── 🚀 Magnet AXIOM (Optional)
+    │
+    ├──  What?
+    │      • Advanced digital forensic investigation tool.
+    │
+    ├──  Uses
+    │      • Computer forensics
+    │      • Mobile forensics
+    │      • Cloud evidence analysis
+    │      • Artifact recovery
+    │
+    └──  How It Works
+           Import Evidence
+                ↓
+           Process Artifacts
+                ↓
+           Analyze Findings
+                ↓
+           Generate Report
+```
